@@ -11,7 +11,6 @@ class ProjectPlannerAgent(Agent):
             schemas_folder="./schemas",
             tools=[],
             tools_folder="./tools",
-            temperature=0.3,
         )
         
     def response_validator(self, message):
