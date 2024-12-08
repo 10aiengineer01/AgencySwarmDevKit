@@ -41,7 +41,7 @@ cd your-repo
 
 ### Run the Setup Script:
 ```bash
-python run.py
+python AgencySwarmDevKit/run.py
 ```
 - This will:
   - Check and install necessary dependencies.
