@@ -10,7 +10,6 @@ class create_initiall_prompt:
 
         self.agency = Agency([self.project_planner_agent],
                         shared_instructions='./agency_manifesto.md',  # shared instructions for all agents
-                        temperature=0.3,  # default temperature for all agents
                         )
 
     def run(self, prompt: str) -> str:
